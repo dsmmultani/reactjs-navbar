@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/dsmmultani/reactjs_navbar",
+  "homepage": "https://dsmmultani.github.io/reactjs_navbar",
   "eslintConfig": {
     "extends": "react-app"
   },
