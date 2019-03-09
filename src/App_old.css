@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI";
+  line-height: 1.4;
+}
+
+.App {
+  padding: 5px;
+}
+
+.container {
+  margin: 1rem;
+  /* display: inline-block; */
+  /* padding: 0 20px; */
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+ul.navMenu {
+  padding: 0px;
+  background-color: #343a40;
+}
+
+ul.navMenu li {
+  /* background: blue; */
+  display: inline-block;
+  line-height: 30px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+ul.navMenu a {
+  /* color: #fff; */
+  padding: 10px 30px;
+  display: inline-block;
+  color: white;
+
+  text-decoration: none;
+}
+
+.navMenu-item {
+  /* display: inline-block; */
+  /* position: relative; */
+}
+.navMenu-item a:hover {
+  /* background-color: #f7f7f7; */
+  background-color: #007bff;
+
+  /* display: block; */
+}
+
+.navDropdown {
+  display: none;
+}
+
+.navDropdown {
+  display: none;
+  position: absolute;
+  background-color: #007bff;
+}
+
+.navMenu-item:hover .navDropdown {
+  display: block;
+}
+
+.navDropdown-item a:hover {
+  background-color: aqua;
+}
+
+.contentContainer {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 20px;
+}
+
+/* .navDropdown {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: $submenu-width;
+  background-color: #007bff;
+} */
+
+/* .navMenu-item:hover .navDropdown {
+  display: block;
+}  */
